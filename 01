@@ -1,4 +1,3 @@
-delfolder("temp")
 _G.KaitunConfig = {
 	["Auto Boost FPS"] = true,
 	["Skip Level Farm"] = true,
