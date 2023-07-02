@@ -12,8 +12,8 @@ _G.KaitunConfig = {
     ["Auto Second World"] = true,
     -- World 2
     ["Auto Rengoku"] = false,
-    ["Auto Quest Flower"] = true,
-    ["Auto V3 Race"] = true,
+    ["Auto Quest Flower"] = false,
+    ["Auto V3 Race"] = false,
     ["Auto Bartilo"] = true,
     ["Auto Cursed Captain"] = false,
     ["Auto Darkbeard"] = true,
