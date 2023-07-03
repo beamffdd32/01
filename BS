@@ -44,7 +44,7 @@ _G.KaitunConfig = {
     ["Auto Electric Claw"] = true,
     ["Auto Dargon Talon"] = true,
     
-    ["Auto Mastery Devil Fruit"] = false,
+    ["Auto Mastery Devil Fruit"] = true,
     ["Skill Setting"] = { -- ถ้าไม่ใส่จะใช้ mode auto
         -- ["Z"] = 0.1,
         -- ["X"] = 0.1,
