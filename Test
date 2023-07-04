@@ -7,7 +7,7 @@ _G.KaitunConfig = {
     
     ["Start Kaitun"] = true,
     -- World 1
-    ["Auto Pole"] = false, -- จะตีเเค่ถ้ามันเกิดไม่ได้ตีจนกว่าจะได้
+    ["Auto Pole"] = true, -- จะตีเเค่ถ้ามันเกิดไม่ได้ตีจนกว่าจะได้
     ["Auto Saber"] = true,
     ["Auto Second World"] = true,
     -- World 2
