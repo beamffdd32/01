@@ -33,7 +33,7 @@ _G.KaitunConfig = {
     ["Auto Canvander"] = false,
     ["Auto Soul Guitar"] = false, 
     ["Auto Rainbow Haki"] = false,
-    ["Auto Cursed Dual Katana"] = false,
+    ["Auto Cursed Dual Katana"] = true,
     
     -- Fighting Style 
     
