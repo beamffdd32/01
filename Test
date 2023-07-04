@@ -84,7 +84,7 @@ _G.KaitunConfig = {
     
     ["Select Lock Fps"] = 15,
     ["Lock Fps Now"] = true,
-    ["White Screen"] = true
+    ["White Screen"] = false
 }
 _G.Key = "1QJ68-R33VN-C4VTZ"
 _G.DiscordId = "1115521661391872050"
