@@ -11,11 +11,11 @@ _G.KaitunConfig = {
     ["Auto Saber"] = true,
     ["Auto Second World"] = true,
     -- World 2
-    ["Auto Rengoku"] = false,
+    ["Auto Rengoku"] = true,
     ["Auto Quest Flower"] = false,
     ["Auto V3 Race"] = false,
     ["Auto Bartilo"] = true,
-    ["Auto Cursed Captain"] = false,
+    ["Auto Cursed Captain"] = true,
     ["Auto Darkbeard"] = true,
     ["Auto Factory"] = true,
     ["Auto Third World"] = true,
