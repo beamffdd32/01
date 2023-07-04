@@ -52,7 +52,7 @@ _G.KaitunConfig = {
         -- ["V"] = 0.1, -- อันไหนไม่เอาลบออกไปเลย
     },
     ["Auto Mastery Sword"] = true,
-    ["Sword Rarity Select"] = {"Mythical"}, -- Common , Uncommon,Rare,Legendary,Mythical
+    ["Sword Rarity Select"] = {"Cursed Dual Katana"}, -- Common , Uncommon,Rare,Legendary,Mythical
 
     ["Select Redeem Code Level"] = 1,
 
