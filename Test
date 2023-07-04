@@ -33,7 +33,7 @@ _G.KaitunConfig = {
     ["Auto Canvander"] = false,
     ["Auto Soul Guitar"] = false, 
     ["Auto Rainbow Haki"] = false,
-    ["Auto Cursed Dual Katana"] = false,
+    ["Auto Cursed Dual Katana"] = true,
     
     -- Fighting Style 
     
@@ -51,8 +51,8 @@ _G.KaitunConfig = {
         -- ["C"] = 0.1,
         -- ["V"] = 0.1, -- อันไหนไม่เอาลบออกไปเลย
     },
-    ["Auto Mastery Sword"] = false,
-    ["Sword Rarity Select"] = {"Mythical","Legendary"}, -- Common , Uncommon,Rare,Legendary,Mythical
+    ["Auto Mastery Sword"] = true,
+    ["Sword Rarity Select"] = {"Legendary"}, -- Common , Uncommon,Rare,Legendary,Mythical
 
     ["Select Redeem Code Level"] = 1,
 
