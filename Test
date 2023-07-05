@@ -3,7 +3,7 @@ _G.KaitunConfig = {
 	["Skip Level Farm"] = true,
 	["Fast Attack Mode"] = "Fast Attack", -- "Fast Attack" , "More Then old Fast Attack" 
 	["Hop If Can't Kill Player"] = true,
-	["Block All Hop"] = false,
+	["Block All Hop"] = true,
 	
 	["Start Kaitun"] = true,
 	-- World 1
