@@ -90,4 +90,4 @@ _G.KaitunConfig = {
 _G.Key = "78H4L-ASDN8-HCXU8"
 _G.DiscordId = "388313760927973378"
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua%22))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua%22"))();
