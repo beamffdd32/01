@@ -26,14 +26,14 @@ _G.KaitunConfig = {
     ["Auto Buddy Sword"] = false,
     ["Auto Dough King"] = false,
     ["Auto Spikey Trident"] = false,
-    ["Auto Tushita"] = true,
-    ["Auto Elite Hunter"] = true,
+    ["Auto Tushita"] = false,
+    ["Auto Elite Hunter"] = false,
     ["Auto rip Indra"] = false,
-    ["Auto Yama"] = true,
+    ["Auto Yama"] = false,
     ["Auto Canvander"] = false,
     ["Auto Soul Guitar"] = false, 
     ["Auto Rainbow Haki"] = false,
-    ["Auto Cursed Dual Katana"] = true,
+    ["Auto Cursed Dual Katana"] = false,
     
     -- Fighting Style 
     
@@ -51,7 +51,7 @@ _G.KaitunConfig = {
         -- ["C"] = 0.1,
         -- ["V"] = 0.1, -- อันไหนไม่เอาลบออกไปเลย
     },
-    ["Auto Mastery Sword"] = true,
+    ["Auto Mastery Sword"] = false,
     ["Sword Rarity Select"] = {"Legendary","Mythical"}, -- Common , Uncommon,Rare,Legendary,Mythical
 
     ["Select Redeem Code Level"] = 1,
