@@ -83,7 +83,7 @@ _G.KaitunConfig = {
 
     -- CPU
     
-    ["Select Lock Fps"] = 5,
+    ["Select Lock Fps"] = 15,
     ["Lock Fps Now"] = true,
     ["White Screen"] = false
 }
