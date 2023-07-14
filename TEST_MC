@@ -84,7 +84,7 @@ _G.KaitunConfig = {
     -- CPU
     
     ["Select Lock Fps"] = 10,
-    ["Lock Fps Now"] = false,
+    ["Lock Fps Now"] = true,
     ["White Screen"] = true
 }
 _G.Key = "1QJ68-R33VN-C4VTZ"
