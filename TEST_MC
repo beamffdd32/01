@@ -82,9 +82,6 @@ _G.KaitunConfig = {
     ["Mode Webhook"] = "Send On Level Max", -- "Send Every 10 min","Send On Level Max","Send On Level Max And Every 10 min"
 
     -- CPU
-    
-    ["Select Lock Fps"] = 10,
-    ["Lock Fps Now"] = true,
     ["White Screen"] = true
 }
 _G.Key = "1QJ68-R33VN-C4VTZ"
