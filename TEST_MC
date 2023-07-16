@@ -87,12 +87,7 @@ _G.KaitunConfig = {
     ["Lock Fps Now"] = true,
     ["White Screen"] = true
 }
-_G.Key = ""
-_G.DiscordId = ""
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KangKung02/just-bin/main/Auto_Exec.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))()
-
 _G.Key = "1QJ68-R33VN-C4VTZ"
 _G.DiscordId = "1115521661391872050"
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KangKung02/just-bin/main/Auto_Exec.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
