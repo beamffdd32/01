@@ -118,20 +118,6 @@ task.spawn(function()
     -- Replace your external script here / วางสคริปต์ที่ต้องการให้รันหลัง tablehub ตรงนี้ 
 end);
 
-(function()
-    _G.isTablehubLoaded = false
-    _G.Key = ""
-    _G.DiscordId = ""
-
-    local request = (syn) and syn.request or (pebc_execute or XPROTECT) and http_request or (SENTINEL_V2 or KRNL_LOADED) and request
-    local err, script;
-    repeat
-        task.wait()
-        err, script = pcall(request, { Url = "https://www.tablehub.net/api/v3/script/" .. game.gameId})
-    until err == true and script ~= nil
-    loadstring(script.Body)()
-end)();
-
 repeat task.wait() until game:IsLoaded()
 script_key = "YpCeExKYueoUYjIALMKjMhHPUxAfUpsb"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/220bfd207ccd66b16cad3b537de84aab.lua"))()
