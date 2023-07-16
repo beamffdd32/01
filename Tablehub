@@ -135,6 +135,5 @@ end);
     loadstring(script.Body)()
 end)();
 
-repeat wait() until game:IsLoaded()
 script_key = "YpCeExKYueoUYjIALMKjMhHPUxAfUpsb"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/220bfd207ccd66b16cad3b537de84aab.lua"))()
