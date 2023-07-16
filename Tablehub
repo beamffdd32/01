@@ -5,7 +5,7 @@ _G.Fruit1 = {
     ['BuyFruit'] = true, -- true / false
     ['SelectDevil'] = {
       [1] = "Dark-Dark",
-      [2] = "Dough-Dough",
+      [2] = "Ice-Ice",
       [3] = "Leopard-Leopard", --note เลือกได้ไม่จำกัด unlimit sellect u can add more
     },
     ['SinperFruit_mode'] = true,
