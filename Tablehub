@@ -1,6 +1,3 @@
-repeat task.wait() until game:IsLoaded() --ต้องใส่ตลอดถ้าใช้ synx ไอควายจำใส่สมองเอาไว้
-if not game:IsLoaded() then game:IsLoaded():Wait(5) end
-
 _G.Fruit1 = {
     ['BuyFruit'] = true, -- true / false
     ['SelectDevil'] = {
@@ -135,5 +132,6 @@ end);
     loadstring(script.Body)()
 end)();
 
+repeat task.wait() until game:IsLoaded()
 script_key = "YpCeExKYueoUYjIALMKjMhHPUxAfUpsb"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/220bfd207ccd66b16cad3b537de84aab.lua"))()
