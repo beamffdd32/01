@@ -6,13 +6,6 @@ _G.Fruit1 = {
     ['MainFruit'] = {
         [1] = "Ice-Ice",
     },
-    ['SelectDevil'] = {
-      [1] = "Leopard-Leopard",
-      [2] = "Dragon-Dragon",
-      [3] = "Venom-Venom",
-      [4] = "Portal-Portal",
-      [5] = "Dark-Dark",
-    },
     ['SinperFruit_mode'] = true,
 }
 
