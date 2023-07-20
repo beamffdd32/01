@@ -1,0 +1,53 @@
+# King Legacy Kaitun Mobile !
+ - ของที่จะได้จากสคริปต์นี้
+  - 5 หมัดครบ , ไปโลก 2 , สุ่มดาบ , Gem & Beli เยอะ , Level ตัน
+ลิ้ง Google Sheet : `https://docs.google.com/spreadsheets/d/1SdNLURrFhmm6fk51OPGbs8zCn_PiWTm4Zr3mM-q74lo/edit?usp=sharing`
+```lua
+_G.KaitunMode = true 
+
+_G.Setting_Stats = {
+    ["Melee"] = true,
+    ["Defense"] = true,
+    ["Sword"] = false,
+    ["Fruits"] = false,
+    ["Point"] = 1
+}
+
+_G.Setting_Fruits = {
+    ["Fruit_Eat"] = {
+        'RumbleRumble',
+        'FlameFlame',
+        'MagmaMagma',
+        'LightLight',
+        'GasGas',
+        'IceIce',
+        'SnowSnow',
+        'QuakeQuake',
+        'SpiritSpirit',
+        'PhoenixPhoenix',
+        'DoughDough',
+        'DragonDragon'
+    }
+}
+
+_G.Setting_AutoFarm = {
+    ["Auto_Farm_Kaitun"] = true,
+    ["Auto_Farm_Bounty"] = true,
+    ["Fast_Auto_Farm"] = true,
+    ["Invisibled_Farm"] = true,
+    ["Fps_Cap"] = 10,
+    ["Boot_Fps"] = true,
+    ["White_Screen"] = false,
+    ["Auto_Close_Ui"] = true
+}
+
+_G.Setting_Webhook = {
+    ["Google_Sheets_Api"] = "",
+    ["Discord_Webhook_Api"] = "",
+    ["Roblox_Account_Manger_Api"] = true,
+    ["Enabled_All_Api"] = true
+}
+```
+(getgenv()).Serial_Key = "NORMALHUB_N59eF2";
+(getgenv()).Id = "840893076422918185";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WxHxCxKxExR/Normal_Pc/main/Script.lua"))();
