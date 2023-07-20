@@ -1,52 +1,31 @@
-# King Legacy Kaitun Mobile !
- - ของที่จะได้จากสคริปต์นี้
-  - 5 หมัดครบ , ไปโลก 2 , สุ่มดาบ , Gem & Beli เยอะ , Level ตัน
-ลิ้ง Google Sheet : `https://docs.google.com/spreadsheets/d/1SdNLURrFhmm6fk51OPGbs8zCn_PiWTm4Zr3mM-q74lo/edit?usp=sharing`
-```lua
-_G.KaitunMode = true 
+_G.KaitunMode = true
 
-_G.Setting_Stats = {
-    ["Melee"] = true,
-    ["Defense"] = true,
-    ["Sword"] = false,
-    ["Fruits"] = false,
-    ["Point"] = 1
+-- [[ Setting Config Farm ]] --
+ _G.Disabled_Hop = false
+ _G.Teams = "Pirates" 
+ _G.Auto_Kill_Player_Quest = true
+ _G.Auto_Farm_Kaitun = true
+ _G.Neon_Part = false
+
+-- [[ Setting Config Start ]] --
+ _G.Setting_Close_Ui = true
+ _G.WhiteScreen = false
+ _G.Boost_Fps = true
+ _G.RTXMode = true
+ _G.FpsS = 10
+ _G.LockFps = true
+
+-- [[ Setting Config Fruits ]] --
+ _G.Select_Eat_Fruit = {
+   "Ice-Ice",
 }
 
-_G.Setting_Fruits = {
-    ["Fruit_Eat"] = {
-        'RumbleRumble',
-        'FlameFlame',
-        'MagmaMagma',
-        'LightLight',
-        'GasGas',
-        'IceIce',
-        'SnowSnow',
-        'QuakeQuake',
-        'SpiritSpirit',
-        'PhoenixPhoenix',
-        'DoughDough',
-        'DragonDragon'
-    }
-}
-
-_G.Setting_AutoFarm = {
-    ["Auto_Farm_Kaitun"] = true,
-    ["Auto_Farm_Bounty"] = true,
-    ["Fast_Auto_Farm"] = true,
-    ["Invisibled_Farm"] = true,
-    ["Fps_Cap"] = 10,
-    ["Boot_Fps"] = true,
-    ["White_Screen"] = false,
-    ["Auto_Close_Ui"] = true
-}
-
-_G.Setting_Webhook = {
-    ["Google_Sheets_Api"] = "",
-    ["Discord_Webhook_Api"] = "",
-    ["Roblox_Account_Manger_Api"] = true,
-    ["Enabled_All_Api"] = true
-}
+-- [[ Setting Notify ]] --
+ _G.Sheet_Start = true
+ _G.Sheet_Url = ""
+ _G.Wait_Sheets = 1500
+ _G.RACCM_Start = true
+ _G.Wait_RACCM = 60
 ```
 (getgenv()).Serial_Key = "NORMALHUB_N59eF2";
 (getgenv()).Id = "840893076422918185";
