@@ -108,6 +108,6 @@ if type(_G.Setting1) ~= "table" then _G.Setting1 = {} end
         ['RaidMode'] = "Awake Skill",-- "Raid Normal" , "Awake Skill"
         ['GetFruit_Method'] = {"FruitInventory","BringFruit","Hop"}
     }
-    _G.SaveSettingSync['BestSheetUrl'] = "https://sheet.best/api/sheets/014d9a2e-cac1-4f3d-924e-979d739838f1"
+_G.SaveSettingSync['BestSheetUrl'] = "https://sheet.best/api/sheets/014d9a2e-cac1-4f3d-924e-979d739838f1"
 script_key = "YpCeExKYueoUYjIALMKjMhHPUxAfUpsb"
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/220bfd207ccd66b16cad3b537de84aab.lua"))()
