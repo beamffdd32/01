@@ -44,7 +44,7 @@ _G.Setting1 = {['WhiteScreen'] = false}
 
 if type(_G.Setting1) ~= "table" then _G.Setting1 = {} end
     _G.Setting1['Team'] = "Pirates"  -- Marines / Pirates
-    _G.Setting1['FPS_Boost'] = true -- true / false -- จอขาว
+    _G.Setting1['FPS_Boost'] = false -- true / false -- จอขาว
     _G.Setting1['AutoRedeem'] = true -- true / false
     _G.Setting1['RedeemOnLv'] = 10
     _G.Setting1['HideUI'] = true
@@ -88,19 +88,19 @@ if type(_G.Setting1) ~= "table" then _G.Setting1 = {} end
         ['AutoDarkbeard'] = true
     }
     _G.sea_III = {
-        ['AutoPullLever'] = false,
-        ['AutoCDK'] = false,
-        ['SoulGuitar'] = false,
-        ['RainbowHaki'] = false,
-        ['PirateRaid'] = false,
-        ['Scythe'] = false,
-        ['BuddySword'] = false,
-        ['DarkDager'] = false,
-        ['SpikeyTrident'] = false,
-        ['Canvander'] = false,
-        ['Tushita'] = false,
-        ['EliteHunt'] = false,
-        ['Elite_mode'] = Elite, --"Elite","Yama","God Chalice"
+        ['AutoPullLever'] = true,
+        ['AutoCDK'] = true,
+        ['SoulGuitar'] = true,
+        ['RainbowHaki'] = true,
+        ['PirateRaid'] = true,
+        ['Scythe'] = true,
+        ['BuddySword'] = true,
+        ['DarkDager'] = true,
+        ['SpikeyTrident'] = true,
+        ['Canvander'] = true,
+        ['Tushita'] = true,
+        ['EliteHunt'] = true,
+        ['Elite_mode'] = "Elite","Yama","God Chalice", --"Elite","Yama","God Chalice"
     }
     _G.Raid1 = {
         ['AutoRaid'] = true, -- true / false
