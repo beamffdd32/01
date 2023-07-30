@@ -60,14 +60,14 @@ if type(_G.Setting1) ~= "table" then _G.Setting1 = {} end
         ['Make_Melee'] = {"Superhuman", "Death Step","Sharkman Karate","Electric Claw","Dargon Talon", "Godhuman"}
     }
     _G.Shop1 = {
-        ['BuyEctoplasItem'] = false,
+        ['BuyEctoplasItem'] = true,
         ['BuyCommon'] = true,
         ['BuyHaki'] = true ,-- autobuy Buso haki Skyjump
-        ['BuyKabcha'] = false, -- true / false
-        ['BuyBisento'] = false,
-        ['BuyTrueTripleKatana'] = false,
-        ['BuyPole2'] = false,
-        ['BoneTrade'] = false
+        ['BuyKabcha'] = true, -- true / false
+        ['BuyBisento'] = true,
+        ['BuyTrueTripleKatana'] = true,
+        ['BuyPole2'] = true,
+        ['BoneTrade'] = true
     }
     if type(_G.Fruit1) ~= "table" then _G.Fruit1 = {} end
     _G.Fruit1['RandomFruit'] = true
