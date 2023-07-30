@@ -1,4 +1,5 @@
 _G.Close_Ui = true
+_G.Auto_Close_ui = true
 _G.KaitunConfig = {
     ["Auto Boost FPS"] = true,
     ["Skip Level Farm"] = true,
