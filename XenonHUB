@@ -1,3 +1,4 @@
+wait(3)
 shared.Team = "Pirates"
 getgenv().Config = {
     AutoFarm = true,
