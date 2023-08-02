@@ -1,4 +1,25 @@
-wait(3)
+local UserInputService = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+
+local WindowFocusReleasedFunction = function()
+    RunService:Set3dRenderingEnabled(false)
+    setfpscap(10)
+    return
+end
+
+local WindowFocusedFunction = function()
+    RunService:Set3dRenderingEnabled(true)
+    setfpscap(60)
+    return
+end
+
+local Initialize = function()
+    UserInputService.WindowFocusReleased:Connect(WindowFocusReleasedFunction)
+    UserInputService.WindowFocused:Connect(WindowFocusedFunction)
+    return
+end
+Initialize()
+
 shared.Team = "Pirates"
 getgenv().Config = {
     AutoFarm = true,
@@ -139,4 +160,5 @@ getgenv().Config = {
     -- [Dough King]
     AutoDoughKing = true,
 }
+
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua')){26812,60896,50856,80414,15982,77669}
