@@ -18,7 +18,7 @@ local Initialize = function()
     UserInputService.WindowFocused:Connect(WindowFocusedFunction)
     return
 end
-Initialize();
+Initialize()
 
 shared.Team = "Pirates"
 getgenv().Config = {
