@@ -1,25 +1,3 @@
-local UserInputService = game:GetService("UserInputService")
-local RunService = game:GetService("RunService")
-
-local WindowFocusReleasedFunction = function()
-    RunService:Set3dRenderingEnabled(false)
-    setfpscap(10)
-    return
-end
-
-local WindowFocusedFunction = function()
-    RunService:Set3dRenderingEnabled(true)
-    setfpscap(60)
-    return
-end
-
-local Initialize = function()
-    UserInputService.WindowFocusReleased:Connect(WindowFocusReleasedFunction)
-    UserInputService.WindowFocused:Connect(WindowFocusedFunction)
-    return
-end
-Initialize()
-
 shared.Team = "Pirates"
 getgenv().Config = {
     AutoFarm = true,
@@ -38,7 +16,7 @@ getgenv().Config = {
     AutoKabucha = true,
 
     -- [Misc]
-    DisableServerhop = false,
+    DisableServerhop = true,
     SemiBuso = true,
     SemiSoru = true,
     SemiGeppo = true,
