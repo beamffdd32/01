@@ -86,8 +86,8 @@ getgenv().Config = {
     -- [First Sea]
     SkylandKill = true,
     PlayerHunt = true,
-    AutoSaber = true,
-    AutoPoleV1 = true,
+    AutoSaber = false,
+    AutoPoleV1 = false,
 
     -- [Second Sea]
     AutoBartiloQuest = true,
@@ -104,12 +104,12 @@ getgenv().Config = {
     AutoCanvander = true,
     AutoSerpentBow = true,
     AutoMusketeerHat = true,
-    AutoYama = true,
+    AutoYama = false,
     AutoDarkDagger = true, 
     AutoHallowScythe = true,
     AutoEliteHunter = true,
-    AutoBuddy = true,
-    AutoTushita = true,
+    AutoBuddy = false,
+    AutoTushita = false,
     
     -- [Raid]
     RaidMicroship = "CurrentFruit",
