@@ -90,17 +90,17 @@ if type(_G.Setting1) ~= "table" then _G.Setting1 = {} end
     _G.sea_III = {
         ['AutoPullLever'] = false,
         ['AutoCDK'] = false,
-        ['SoulGuitar'] = false,
-        ['RainbowHaki'] = false,
-        ['PirateRaid'] = false,
-        ['Scythe'] = false,
-        ['BuddySword'] = false,
-        ['DarkDager'] = false,
-        ['SpikeyTrident'] = false,
-        ['Canvander'] = false,
+        ['SoulGuitar'] = true,
+        ['RainbowHaki'] = true,
+        ['PirateRaid'] = true,
+        ['Scythe'] = true,
+        ['BuddySword'] = true,
+        ['DarkDager'] = true,
+        ['SpikeyTrident'] = true,
+        ['Canvander'] = true,
         ['Tushita'] = false,
         ['EliteHunt'] = false,
-        ['Elite_mode'] = "Elite","Yama","God Chalice", --"Elite","Yama","God Chalice"
+        ['Elite_mode'] = false, --"Elite","Yama","God Chalice"
     }
     _G.Raid1 = {
         ['AutoRaid'] = true, -- true / false
