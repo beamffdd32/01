@@ -1,3 +1,25 @@
+local UserInputService = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+
+local WindowFocusReleasedFunction = function()
+    RunService:Set3dRenderingEnabled(false)
+    setfpscap(10)
+    return
+end
+
+local WindowFocusedFunction = function()
+    RunService:Set3dRenderingEnabled(true)
+    setfpscap(30)
+    return
+end
+
+local Initialize = function()
+    UserInputService.WindowFocusReleased:Connect(WindowFocusReleasedFunction)
+    UserInputService.WindowFocused:Connect(WindowFocusedFunction)
+    return
+end
+Initialize()
+
 _G.Close_Ui = true
 _G.KaitunConfig = {
     ["Auto Boost FPS"] = true,
@@ -91,4 +113,3 @@ _G.Key = "EE9RV-C6DEL-G9X0Z"
 _G.DiscordId = "840893076422918185"
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
-_G.Auto_Close_ui = true
