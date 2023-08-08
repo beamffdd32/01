@@ -70,6 +70,8 @@ getgenv().Gun = { -- ฟาร์มปืน
 }
 
 getgenv().Mastery = { -- ฟาร์มมาสเตอรี่
+    ['Melee'] = true,
+    ['Fruit'] = true,
     ['Sword'] = true,
     ['Setting Sword'] = { -- ตั้งค่าดาบที่ต้องการให้ฟาร์มมาสเตอรี่
         [1] = "Tushita",
@@ -88,9 +90,6 @@ getgenv().Mastery = { -- ฟาร์มมาสเตอรี่
         [14] = "Saber",
         [15] = "Canvander"
     },
-    ['Melee'] = true,
-    ['Fruit'] = true,
-
     ['Gun'] = false,
     ['Setting Gun'] = { -- ตั้งค่าปืนที่ต้องการให้ฟาร์มมาสเตอรี่
         [1] = 'Soul Guitar',
