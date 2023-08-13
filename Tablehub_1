@@ -6,8 +6,6 @@ _G.Fruit1 = {
     ['BuyFruit'] = true, -- true / false
     ['MainFruit'] = {
         [1] = "Ice-Ice",
-        [2] = "Sand-Sand",
-        [3] = "Falcon-Falcon",
     },
     ['SinperFruit_mode'] = true,
 }
