@@ -1,4 +1,4 @@
-setfpscap(8)
+setfpscap(30)
 if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
 
 -- ปรับ true = เปิด
