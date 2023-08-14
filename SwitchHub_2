@@ -101,7 +101,7 @@ getgenv().Mastery = { -- ฟาร์มมาสเตอรี่
 
 _G.On_Next_Generation = true -- เปิดใช้งาน Script Next Generation
 script_key="OwzaHmXBlTXjLTmFqpkofgQGTBSAWFjR";
-loadstring(game:HttpGet("https://raw.githubusercontent.com/londnee/code/main/nextgeneration.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/londnee/code/main/nextgeneration.lua"))();
 local HttpService = game:GetService("HttpService")
 local LocalPlayer = game:GetService('Players').LocalPlayer
 local MeleeName = {}
