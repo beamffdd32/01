@@ -1,4 +1,4 @@
-setfpscap(15)
+setfpscap(3)
 repeat task.wait() until game:IsLoaded() --ต้องใส่ตลอดถ้าใช้ synx ไอควายจำใส่สมองเอาไว้
 if not game:IsLoaded() then game.Loaded:Wait() end
 
